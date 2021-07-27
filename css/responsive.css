@@ -252,7 +252,7 @@
 	.footer-icon {margin-bottom: 30px;}
 	.footer-link {margin-bottom: 20px;}
 	.subscribe {padding-top: 0;}
-	.footer-link ul li {width: 50%;}
+	.footer-link ul li {width: 10%;}
 }
 
 @media(max-width: 480px){
@@ -270,5 +270,5 @@
 	/*----- Home Page -----*/
 	.listtopie-svg {width: 280px; height: 280px;}
 	.token-graph-right{height: 300px;}
-	.listtopie-initialized {display: flex; justify-content: center;
+	.listtopie-initialized {display: flex; justify-content: center;}
 }
