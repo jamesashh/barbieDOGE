@@ -1,0 +1,209 @@
+/*_______________________________________________________
+// BASIC STYLE  //----------------------------
+_______________________________________________________*/
+/*---------- General Style ------------*/
+body, html {color: #999999;}
+a, a:focus, a:hover, a.active { color: #111111; }
+
+.btn {color: #ffffff;  background: #ff16b9; border: 1px solid #ff16ff; border-color: #e416ff;}
+.btn:hover {color: #e416ff;}
+.btn:before{background: -webkit-radial-gradient(center, ellipse, rgba(228, 22, 255, 0.5) 0%, rgba(0, 0, 0, 0) 80%); background: radial-gradient(ellipse at center, rgba(247, 22, 255, 0.459) 0%, rgba(0, 0, 0, 0) 80%);}
+.owl-dot{background: #999999 !important;}
+.owl-dot.active {background: #ff16b9 !important;}
+
+#preloader{background: url(../images/b6.png) center no-repeat rgb(255, 255, 255);}
+
+.form-control, .form-control:focus{background: #f0f0f0; color: #111111;}
+.form-control::-webkit-input-placeholder {color: #999999;}
+.form-control::-moz-placeholder {color: #999999;}
+.form-control:-ms-input-placeholder {color: #999999;}
+.form-control:-moz-placeholder {color: #999999;}
+.heading-title, .heading-title-2, .sub-banner-title{color: #c516ff; }
+.sub-heading, .heading-title-2 span, .sub-heading-2, .sub-page-banner ul li a:hover {color: #ff16b9;}
+.heading-des, .sub-page-banner ul li a{color: #999999;}
+.lightsky{background-color: #ebf4fc;}
+.lightskyblue, .sub-page-banner{background-color: #fef2fe;}
+.grey{color: #999999 !important;}
+.top-scroll {background: #ff16b9; color: #fff;}
+.top-scroll:hover {opacity: 0.6;}
+.top-scroll a{color: #fff;}
+
+/*----- Menu -----*/
+.menu ul li a, .mega-menu:before{color: #888888;}
+.menu ul li a:before{background: #e416ff;}
+header.fixed{background: #fff; box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.2);}
+.opener:before, .opener:after, header.fixed .menu-toggle span, header.fixed .menu-toggle span:before, header.fixed .menu-toggle span:after{background: #fff;}
+.menu-toggle span, .menu-toggle span:before, .menu-toggle span:after{background: #e416ff;}
+.menu-toggle.active span{background: transparent;}
+
+/*----- Home Banner -----*/
+.banner-heading{color: #111111; }
+.banner-heading span{color: #ff16b9;}
+.banner-des{color: #888888;}
+
+/*----- Work Section -----*/
+.work-des, ul.check-list li p, .work-process-title{color: #111111;}
+ul.check-list li span{background: #ff16b9; color: #fff;}
+
+/*----- Feature Section -----*/
+.feature-title:hover {color: #ff16b9;}
+.feature-box:hover path.hover {fill: #ff16b9;}
+
+/*----- Timeline Section -----*/
+.h-border, .v-row{border-color: #cac5cb;}
+.small-round{border-color: #ff16b9; background: #fef2fe;}
+.v-row:before{background: #ff16b9;}
+.small-round span{background: #ff16b9;}
+.date-title{color: #ff16b9;}
+.roadmap-detail-box{color: #111111;}
+
+/*----- Team Section -----*/
+.team-img{border-color: #ff16b9;}
+.team-box:hover .team-img {border-color: #999999;}
+.member-name, .team-box ul li a:hover{color: #ff16b9;}
+.member-name:hover{color: #111111;}
+.member-des, .team-box ul li a{color: #999999;}
+
+/*----- Token Sale Section -----*/
+.token-graphic-detail ul li:before{background: #f85d77;}
+.token-graphic-detail ul li.color-code-2:before{background: #5ad6f8;}
+.token-graphic-detail ul li.color-code-3:before{background: #f8c04e;}
+.token-graphic-detail ul li.color-code-4:before{background: #ac56f7;}
+.token-graphic-detail ul li.color-code-5:before{background: #61f89f;}
+.donut {color: #3d1f94;}
+.token-graphic-detail ul li{color: #999999;}
+
+/*----- Blog Section -----*/
+.blog-date li:before{background: #ff16b9;}
+.read-more:hover{color: #111111;}
+.blog-img a:before{background: rgb(0, 0, 0, 0.5);}
+.blog-date li, .blog-title:hover, .read-more{color: #ff16b9;}
+.ico-apps ul.check-list li p, .ico-apps-2 ul.check-list li p{color: #999999;}
+
+/*----- FAQ Section -----*/
+.Frequently-tabs li a, .qus-des{color: #999999;}
+.Frequently-tabs li a.active, .qus-title{color: #ff16b9;}
+.Frequently-tabs li a:before{background: #ff16b9;}
+
+/*----- Home Page Tow -----*/
+.banner-heading-tow, .coins-counter-loop li .coin-day, .coin-slide-text, .coin-head{color: #111111;}
+.banner-heading-tow span, .coin-start{color: #ff16b9;}
+.coin-counter{background: #d7f8ff;}
+.coins-counter-loop li:before, .coins-counter-loop li:after, .coins-progress span{background: #ff16b9;}
+.coins-counter-loop li span{background: #fff; color: #ff16b9;}
+.coins-progress{background: #fff;}
+
+/*----- Feature tow -----*/
+.feature-des {color: #999999;}
+.feature-title-2, .token-sale-2 .token-graphic-detail ul li{color: #111111;}
+
+/*----- Roadmap Section -----*/
+.roadmap-part .v-row, .roadmap-part .h-border, .roadmap-des {border-color: #ff16b9;}
+.roadmap-part .small-round {background: #fef2fe;}
+
+/*----- team Tow Section -----*/
+.team-box-2{background: #fff;}
+.team-member-name {background: #ff16b9;}
+.team-member-name a{color: #fff;}
+.team-member-name a:hover{color: #111111;}
+.team-member-img {background-color: #111111;}
+.team-member-img:after{background-color: rgba(255, 255, 255, .4);}
+
+/*----- Blog Tow Section -----*/
+.blog-part-2 .read-more:hover {color: #111111;}
+
+/*----- FAQ tow Section -----*/
+.accordion-faq-box {box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 0.1);}
+.faq-part-2 .Frequently-tabs li a, .faq-part-2 .faq-tab {color: #999999; background: #fef2fe;}
+.faq-part-2 .Frequently-tabs li a{background: #fef2fe;}
+.faq-part-2 .Frequently-tabs li a.active{background: #ff16b9; color: #fff;}
+.faq-part-2 .qus-des, .accordion-faq-title.active, .accordion-faq-title:hover{color: #111111;}
+.accordion-faq-title:before, .accordion-faq-title:after{background: #111111;}
+
+/*----- About Page -----*/
+.sub-page-banner ul li:before{background: #999999;}
+.play-icon span{border-color: #ff16e0; background: #fff; color: #ff16b9;}
+.play-icon:hover span{border-color: #fff; background: #ff16b9; color: #fff;}
+.work-part button.close{color: #111111;}
+.about-des{color: #888888;}
+
+/*----- blog List Page -----*/
+.blog-search input{border-color: #ff16b9; color: #111111;}
+.blog-search input::-webkit-input-placeholder, .blog-search input::-moz-placeholder, .blog-search input:-ms-input-placeholder, .blog-search input:-moz-placeholder {color: #999999;}
+.blog-search-btn:hover {background: #999999; color: #dddddd;}
+.blog-category, .blog-category ul li:before{background: #ff16b9;}
+.blog-tags ul li a{background: #ff16b9; color: #fff;}
+.blog-tags ul li a:hover{background: #fef2fe; color: #111111;}
+.archives ul li{border-color: #e2e2e2;}
+.blog-list-content ul li:before{background: #ff16b9;}
+.blog-list-pagination ul li a{background: #e2e2e2; color: #999999;}
+.blog-list-pagination ul li a:hover, .blog-list-pagination ul li a.active, .blog-search-btn{background: #ff16b9; color: #fff;}
+.blog-category .blog-cat-title, .blog-category ul li a{color: #fff;}
+.blog-category ul li a:hover, .blog-cat-title{color: #111111;}
+.blog-category ul li:before{background: #fff;}
+.archives ul li a{color: #999999;}
+.trending-news-title:hover, .archives ul li a:hover, .blog-list-title:hover, .trending-news-date, .blog-list-content ul li{color: #ff16b9;}
+
+/*----- blog Detail Page -----*/
+.blog-detail-content ul li:before{background: #ff16b9;}
+.blog-detail-content blockquote{background: #fef2fe; border-color: #ff16b9; color: #111111;}
+.blog-detail-tag ul li a, .blog-detail-social ul li a{background: #e2e2e2; color: #999999;}
+.blog-detail-tag ul li a:hover, .blog-detail-social ul li a:hover{background: #ff16b9; color: #fff;}
+.blog-comment-post-singel{border-color: #e2e2e2;}
+.comment-date{color: #bebebe;}
+.comment-reply{background: #ff16b9; color: #fff;}
+.comment-reply:hover{background: #e2e2e2; color: #999999;}
+.blog-detail-content ul li, .commenter{color: #ff16b9;}
+.blog-detail-content h2, .blog-detail-tag span, .blog-detail-social span, .blog-comment-heading{color: #111111;}
+
+/*----- Roadmap Page -----*/
+.roadmap-center-line, .roadmap-main-content:before{border-color: #999999;}
+.roadmap-center-line:before, .roadmap-center-line:after{background: #ff16b9;}
+.roadmap-animated{background: #ff16b9; color: #fff;}
+.roadmap-small-round{border-color: #ff16b9; background: #fff;}
+.roadmap-small-round:before{background: #ff16b9;}
+.roadmap-main .roadmap-detail-box{background: #5d19db;}
+.roadmap-main .roadmap-des{color: #111111; padding: 0;}
+
+/*----- Token Sale Page -----*/
+.information-token-head{color: #ff16b9;}
+.token-sale-counter{background: #ff16b9;}
+.token-sale-counter .coins-counter-loop li span{background: transparent; color: #fff;}
+.token-sale-counter .coins-counter-loop li:before, .token-sale-counter .coins-counter-loop li:after{background: #fff;}
+.token-sale-counter .coins-counter-loop li .coin-day, .token-slide-info{color: #fff;}
+.token-sale-counter .coins-progress span{background: rgb(245, 170, 252); background: -moz-linear-gradient(left,  rgb(249, 170, 252) 0%, rgb(219, 49, 211) 100%); background: -webkit-linear-gradient(left,  rgb(249, 170, 252) 0%,rgb(219, 49, 211) 100%); background: linear-gradient(to right,  rgb(249, 170, 252) 0%,rgb(219, 49, 211) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaedfc', endColorstr='#31bcdb',GradientType=1 );}
+.token-slide-info:before{background: #ff16b9;}
+.token-sale-counter .coins-progress{background: #fff;}
+.distribution-title { color: #ff16b9;}
+.token-sale-counter .btn{background: #7ce6fd;}
+.token-sale-counter .btn:hover:before{background: -webkit-radial-gradient(center, ellipse, rgb(124, 230, 253, 0.5) 0%, rgba(0, 0, 0, 0) 80%);  background: radial-gradient(ellipse at center, rgb(124, 230, 253, 0.5) 0%, rgba(0, 0, 0, 0) 80%);}
+
+/*----- Contact Page -----*/
+.contact-detail li i{background: #ff16b9; color: #fff;}
+.contact-detail li{color: #111111;}
+
+/*----- Footer Section -----*/
+.footer-icon ul li a, .subscribe .submit:hover{background: #dddddd; color: #999999;}
+.footer-icon ul li a:hover{color: #fff;}
+.footer-icon ul li a:hover{background: #fef2fe;}
+.footer-link ul li a:hover, .copyright ul li a:hover, .copyright p a{color: #ff16b9;}
+.subscribe .form-control{background: #fff; color: #111111;}
+.subscribe label, .copyright, .copyright p a:hover{color: #111111;}
+.subscribe .submit{color: #fff; background: #ff16b9;}
+.subscribe .form-control::-webkit-input-placeholder, .subscribe .form-control::-moz-placeholder, .subscribe .form-control:-ms-input-placeholder, .subscribe .form-control:-ms-input-placeholder, .subscribe .form-control:-moz-placeholder {color: #999999;}
+.copyright ul li:before{background: #999999;}
+.footer{border-color: #e3e3e3;}
+
+@media(min-width: 992px){
+	.menu ul li:hover a, .mega-menu:hover:before, .menu ul ul li.mega-menu:before, .menu ul ul li:hover > a{color: #ff16b9;}
+	.menu ul ul li a{border-color: rgb(136 136 136 / .3) !important; color: #888888 !important;}
+	.menu ul ul{background: #fff;}
+	.menu ul ul li a:before{background: #ff16b9;}
+}
+@media(max-width: 991px){
+	.menu{background: #ff16b9;}
+	.menu ul li a{color: #fff;}
+	.signin .btn{background: transparent;}
+	header.fixed .menu-toggle span, header.fixed .menu-toggle span:before, header.fixed .menu-toggle span:after{background: #ff16b9;}
+	header.fixed .menu-toggle.active span{background: transparent;}
+}
